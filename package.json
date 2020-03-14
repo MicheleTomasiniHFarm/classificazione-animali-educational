@@ -1,0 +1,30 @@
+{
+  "name": "classificazione-animali-educational",
+  "version": "1.0.0",
+  "description": "game educational",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicheleTomasiniHFarm/classificazione-animali-educational.git"
+  },
+  "keywords": [
+    "game",
+    "educational",
+    "PEGI5+"
+  ],
+  "author": "Michele Tomasini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MicheleTomasiniHFarm/classificazione-animali-educational/issues"
+  },
+  "homepage": "https://github.com/MicheleTomasiniHFarm/classificazione-animali-educational#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-terser": "^1.2.0"
+  }
+}

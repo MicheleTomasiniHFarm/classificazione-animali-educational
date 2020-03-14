@@ -17,35 +17,53 @@
     </head>
     <body>
         <header>
-            <div>
-                <img src='img/logo.png' alt='logo'>
+            <div id='logo_div'>
             </div>
-            <div>
+            <div id='header_text_div'>
                 <h2>Classifica gli animali</h2>
-                <p><span>Metti gli animali nella scatola giusta!</span>
-                    <br>
-                    <span>Dividili in base a cosa mangiano.</span>
-                </p>
+                <span>Metti gli animali nella scatola giusta!</span>
+                <br>
+                <span>Dividili in base a cosa mangiano.</span>
             </div>
         </header>
         <div id='main_content_div'>
-            <div id='left_div'>
+            <div class='main_section' id='top_section_div'>
+                <button type='button' id='draw_card'>Estrai un'altra carta</button>
+                <div id='card' draggable='true'>
+                    <h3 id='card_name'>nome animale</h3>
+                    <img id='card_image' src='' alt='placeholder'>
+                    <div id='card_textbox'>
+                        <p id='card_actualtext'></p>
+                    </div>
+                </div>
+            </div>
+            <div class='main_section' id='middle_section_div'>
 
             </div>
-            <div id='middle_div'>
-
-            </div>
-            <div id='right_div'>
+            <div class='main_section' id='bottom_section_div'>
                 <div class='target_box' id='carnivori_box'>carnivori</div>
                 <div class='target_box' id='erbivori_box'>erbivori</div>
                 <div class='target_box' id='onnivori_box'>onnivori</div>
             </div>
-            <div id='card'>
-                <h3 id='card_name'>nome animale</h3>
-                <img id='card_image' src='' alt='placeholder'>
-                <div id='card_textbox'>
-                    <p id='card_actultext'></p>
-                </div>
+        </div>
+        <div id='start_message_div'>
+            <div id='start_text_message'>
+                <span>Classifica gli animali in base a ciò che mangiano.</span>
+                <span>Estrai una carta e mettila nella scatola giusta.</span>
+            </div>
+            <button type='button' id='start_button'>Iniziamo!</button>
+        </div>
+        <div id='end_message_div'>
+            <div id='end_text_message'>
+                <span><strong>Complimenti!</strong></span>
+                <br>
+                <span>Hai sistemato tutte le schede nella scatola giusta.</span>   
+            </div>
+            <div id='party_image_box'>
+
+            </div>
+            <div id='leave_game_div'>
+                <a href='qualchealtrapagina.com'>Esci</a>
             </div>
         </div>
         <footer>
@@ -54,3 +72,4 @@
             <p>Rilasciato il 15 marzo 2020; ultimo aggiornamento 13 marzo 2020</p>
         </footer>
     </body>
+</html>
